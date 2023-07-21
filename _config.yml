@@ -13,46 +13,47 @@ baseurl: ""
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: America/Denver
+timezone:
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chase Sims # the main title
+title: Chirpy # the main title
 
-tagline: DevOps Engineer # it will display as the sub-title
+tagline: A text-focused Jekyll theme # it will display as the sub-title
 
-description: >- # used by seo meta and the atom feed # TODO
+description: >- # used by seo meta and the atom feed
+  A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://wrchasesims.github.io"
+url: ""
 
 github:
-  username: wrchasesims # change to your github username
+  username: github_username # change to your github username
 
-# twitter:
-  # username: twitter_username # change to your twitter username
+twitter:
+  username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: William Roy Chase Sims
-  email: wrchasesims@gmail.com # change to your email address
+  name: your_full_name
+  email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/wrchasesims # change to your github homepage
+    - https://twitter.com/username # change to your twitter homepage
+    - https://github.com/username # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # TODO - https://www.linkedin.com/in/username
+    # - https://www.linkedin.com/in/username
 
-google_site_verification: # TODO fill in to your verification string
+google_site_verification: # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # TODO fill in your Google Analytics ID
+  id: # fill in your Google Analytics ID
 
 # Prefer color scheme setting.
 #
@@ -65,18 +66,18 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark
+theme_mode: # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://chirpy-img.netlify.app" # TODO
+img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://media.licdn.com/dms/image/D5603AQFcM8llG74KtQ/profile-displayphoto-shrink_800_800/0/1686851480972?e=1692230400&v=beta&t=iian4425ANXIFC9m9xxR54YUPQwwaydCR6dD5igCHlQ"
-# /commons/avatar.jpg
+avatar:
+
 # boolean type, the global switch for TOC in posts.
 toc: true
 
